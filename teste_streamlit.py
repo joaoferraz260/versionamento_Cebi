@@ -5,7 +5,7 @@ st.title("Painel de Versões - CEBI")
 
 try:
     # Lê o CSV gerado pelo seu script de varredura
-    df = pd.read_csv(r"C:\CEBI\Joao\Codigos\relatorio_versoes_limpo.csv")
+    df = pd.read_csv("relatorio_versoes_limpo.csv")
     
     # --- ALTERAÇÃO 1: Ordenação ---
     # Ordena a tabela pela coluna "Módulo" em ordem alfabética (A-Z)
