@@ -1,48 +1,168 @@
 Cliente,Módulo,Versão
-SAESA,Usuários,2026.7.13.0
-SAESA,Dívida Ativa,2026.3.13.5
-SAESA,Balcão,2026.7.14.15
-SAESA,Analytics,2026.4.7.0
 SAESA,Pessoas,2024.9.12.6
-SAESA,Corte,2026.6.12.4
 SAESA,Leitura,2026.4.23.9
-SAESA,Administração,2026.7.13.0
+SAESA,Balcão,2026.7.14.15
+SAESA,Corte,2026.6.12.4
+SAESA,Dívida Ativa,2026.3.13.5
 SAESA,Analytics Designer,2026.7.14.0
+SAESA,Usuários,2026.7.13.0
+SAESA,Analytics,2026.4.7.0
+SAESA,Administração,2026.7.13.0
 SAESA,SSB Principal,2025.11.26.0
-SAESA,Hidrometria,2025.2.6.1
-SAESA,Baixa,2026.6.12.40
 SAESA,Rois de apoio,2025.3.20.1
-Poços,Administração,2026.7.13.0
-Poços,Leitura,2026.7.1.11
-Poços,Pessoas,2025.9.19.0
-Poços,Balcão,2026.7.14.29
-Poços,Controle de Leitura,2026.6.12.0
-Poços,Usuários,2026.7.13.0
-Poços,Analytics,2026.4.7.0
+SAESA,Baixa,2026.6.12.40
+SAESA,Hidrometria,2025.2.6.1
 Poços,Analytics Designer,2026.7.14.0
+Poços,Controle de Leitura,2026.6.12.0
+Poços,Leitura,2026.7.1.11
+Poços,Administração,2026.7.13.0
+Poços,Analytics,2026.4.7.0
+Poços,Usuários,2026.7.13.0
+Poços,Balcão,2026.7.14.29
+Poços,Pessoas,2025.9.19.0
 Poços,Corte,2025.2.6.0
 Poços,Dívida Ativa,2026.6.12.12
 Poços,Hidrometria,2025.8.26.3
-Poços,Rois de apoio,2026.8.12.0
-Poços,SSB Principal,2026.6.12.0
 Poços,Baixa,2026.6.12.16
-Poços,OmniChannel,1.0.0.8
-Poços,CRC,2026.6.12.4
 Poços,Gerenciamento de Serviços,1.0.41.21
-Descalvado,Balcão,2026.7.1.2
+Poços,SSB Principal,2026.6.12.0
+Poços,CRC,2026.6.12.4
+Poços,OmniChannel,1.0.0.8
+Poços,Rois de apoio,2026.8.12.0
+SAECIL,Analytics,2026.4.7.0
+SAECIL,Leitura,2026.4.23.13
+SAECIL,Pessoas,2026.7.1.1
+SAECIL,Balcão,2026.7.1.3
+SAECIL,Corte,2024.6.5.1
+SAECIL,Administração,2026.7.13.0
+SAECIL,Analytics Designer,2026.7.14.0
+SAECIL,Gerenciamento de Serviços,1.0.41.26
+SAECIL,Usuários,2026.7.13.0
+SAECIL,OmniChannel,1.0.0.6
+SAECIL,Gestão de Documentos,26.8.7.0
+Rio Claro,Pessoas,2026.3.26.0
+Rio Claro,Balcão,2026.7.14.29
+Rio Claro,CRC,2026.6.12.5
+Rio Claro,Administração,2026.7.13.0
+Rio Claro,SSB Principal,2026.6.12.1
+Rio Claro,Gerenciamento de Serviços,1.0.41.21
+Rio Claro,Gestão de Documentos,26.8.14.0
+Penapolis,Analytics,2026.4.7.0
+Penapolis,Usuários,2026.7.13.0
+Penapolis,Administração,2026.7.13.0
+Penapolis,Balcão,2026.7.1.3
+Penapolis,Pessoas,2026.3.26.0
+Penapolis,Leitura,2026.4.23.11
+Penapolis,Baixa,2026.6.12.34
+Penapolis,Gerenciamento de Serviços,1.0.41.21
+Penapolis,OmniChannel,1.0.0.8
+Penapolis,Analytics Designer,2026.7.14.0
+Penapolis,Gestão de Documentos,25.4.11.0
+Penapolis,Materiais,25.8.12.0
+Penapolis,Frota,26.8.11.0
+Pirai,Balcão,2025.11.7.12
+Pirai,Pessoas,2026.6.12.0
+Pirai,Administração,2026.7.13.0
+Pirai,Baixa,2026.6.12.7
+Pirai,Rois de apoio,2026.6.12.0
+Pirai,Gerenciamento de Serviços,1.0.41.20
+Pirai,SSB Principal,2024.3.11.0
+Pirai,Agendamento de Atendimentos,1.0.5.0
+Pirai,Analytics Designer,2026.7.14.0
+Pirai,Analytics,2026.4.7.0
+Cosmopolis,Pessoas,2026.2.10.1
+Cosmopolis,Balcão,2026.7.1.17
+Cosmopolis,Leitura,2026.6.12.0
+Cosmopolis,Controle de Leitura,2026.6.12.0
+Pirai,Usuários,2026.7.13.0
+Cosmopolis,SSB Principal,2026.6.12.1
+Cosmopolis,Gerenciamento de Serviços,1.0.41.12
+Cosmopolis,Funcionários,26.1.30.0
+Cosmopolis,Gestão de Documentos,26.7.29.0
+Cosmopolis,Controle Interno,22.0.2.0
+Cosmopolis,Compras e Licitações,26.7.15.0
+Cosmopolis,Frota,24.4.10.0
+Cosmopolis,Patrimônio,26.7.16.0
+Cosmopolis,Concurso Público,2026.2.27.0
+Cosmopolis,Portal de Licitações,23.10.18.0
+Descalvado,Analytics Designer,2026.7.14.0
+Descalvado,Administração,2026.7.13.0
 Descalvado,Usuários,2026.7.13.0
+Descalvado,Analytics,2026.4.7.0
 Descalvado,Pessoas,2025.11.3.0
 Descalvado,Leitura,2026.4.23.11
 Descalvado,Controle de Leitura,2026.6.12.0
-Descalvado,Administração,2026.7.13.0
-Descalvado,Analytics Designer,2026.7.14.0
-Descalvado,Analytics,2026.4.7.0
 Descalvado,Funcionários,26.1.16.0
 Descalvado,Gestão de Documentos,26.8.14.0
+Descalvado,EFD Reinf,26.7.1.1
+Descalvado,Materiais,26.8.13.0
 Descalvado,Frota,26.3.27.0
 Descalvado,Patrimônio,26.7.16.0
 Descalvado,Fornecedores,26.8.5.0
-Descalvado,Materiais,26.8.13.0
-Descalvado,EFD Reinf,26.7.1.1
 Descalvado,Folha Diversos,2026.3.11.0
 Descalvado,Autorização de Pagamento,2026.8.12.1
+Cosmopolis,Analytics Designer,2026.7.14.0
+Iracemápolis,Usuários,2026.7.13.0
+Iracemápolis,Administração,2026.7.13.0
+Iracemápolis,Analytics,2026.4.7.0
+Iracemápolis,Pessoas,2025.9.19.4
+Iracemápolis,Balcão,2026.7.14.34
+Iracemápolis,Leitura,2026.6.12.0
+Iracemápolis,Baixa,2026.6.12.34
+Iracemápolis,Controle de Leitura,2026.7.1.3
+Iracemápolis,Dívida Ativa,2026.3.13.4
+Iracemápolis,Hidrometria,2024.7.29.2
+Iracemápolis,Corte,2024.3.11.0
+Iracemápolis,SSB Principal,2026.6.12.7
+Iracemápolis,Gerenciamento de Serviços,1.0.41.14
+Iracemápolis,Rois de apoio,2024.8.28.0
+Iracemápolis,Funcionários,24.1.25.0
+Salto,Pessoas,2024.4.10.4
+Salto,Balcão,2026.7.1.2
+Salto,Gerenciamento de Serviços,1.0.39.1
+São Carlos,Balcão,2026.7.14.35
+São Carlos,Hidrometria,2025.3.20.1
+São Carlos,SSB Principal,2026.6.12.1
+São Carlos,Gerenciamento de Serviços,1.0.41.22
+São Carlos,Funcionários,26.1.30.0
+São Carlos,Gestão de Documentos,26.8.7.0
+São Carlos,Controle Interno,22.0.2.0
+São Carlos,Materiais,24.8.12.0
+São Carlos,Usuários,2026.7.13.0
+São Carlos,Administração,2026.7.13.0
+Guaratinguetá,Balcão,2026.7.14.28
+Guaratinguetá,Administração,2026.7.13.0
+Guaratinguetá,Analytics,2026.4.7.0
+Guaratinguetá,Usuários,2026.7.13.0
+Guaratinguetá,Pessoas,2026.3.26.0
+Guaratinguetá,Analytics Designer,2026.7.14.0
+São Carlos,Rois de apoio,2025.3.20.8
+Guaratinguetá,Baixa,2026.6.12.39
+Guaratinguetá,Controle de Leitura,2026.7.1.1
+Guaratinguetá,Corte,2026.6.12.4
+Guaratinguetá,Gerenciamento de Serviços,1.0.41.21
+Mogi Guaçu,Pessoas,2025.6.30.0
+Mogi Guaçu,CRC,2026.6.12.1
+Mogi Guaçu,Gestão de Documentos,26.4.17.0
+Lençois Paulista,Balcão,2026.7.14.33
+Lençois Paulista,Pessoas,2026.3.26.0
+Lençois Paulista,Leitura,2026.6.12.0
+Lençois Paulista,Controle de Leitura,2026.6.12.0
+Lençois Paulista,Administração,2026.7.13.0
+Lençois Paulista,Gerenciamento de Serviços,1.0.41.17
+Lençois Paulista,OmniChannel,1.0.0.5
+Lençois Paulista,Gestão de Documentos,26.7.13.0
+SAAE Mogi Mirim,Analytics,2026.4.7.0
+SAAE Mogi Mirim,Gerenciamento de Serviços,1.0.41.21
+SAAE Mogi Mirim,Frota,26.8.11.0
+Engenheiro Coelho,Gerenciamento de Serviços,1.0.40.20
+SAEAN,Pessoas,2025.2.6.0
+SAEAN,SSB Principal,2026.6.12.1
+SAEAN,Gerenciamento de Serviços,1.0.41.20
+SAEAN,Gestão de Documentos,26.5.11.0
+SAEAN,Patrimônio,26.7.7.0
+Mogi das Cruzes,Balcão,2026.7.1.2
+Mogi das Cruzes,Pessoas,2025.12.17.3
+Mogi das Cruzes,Analytics,2026.4.7.0
+Mogi das Cruzes,Gerenciamento de Serviços,1.0.41.17
+Mogi das Cruzes,Frota,25.10.15.0
