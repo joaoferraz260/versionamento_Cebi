@@ -26,8 +26,8 @@ try:
     if cliente_selecionado != "Todos":
         # Filtra o dataframe para mostrar apenas o cliente selecionado
         df_exibicao = df[df["Cliente"] == cliente_selecionado]
-#    else:
-#        df_exibicao = df
+    else:
+        df_exibicao = df
 
     # Faz o filtro de módulo também
     if modulo_selecionado != "Todos":
