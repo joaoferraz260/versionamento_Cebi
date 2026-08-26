@@ -23,7 +23,8 @@ clientes = {
     "SAAE Mogi Mirim": "https://mogimirimsaae.cebicloud.com.br",
     "Engenheiro Coelho": "https://engcoelho.cebicloud.com.br",
     "SAEAN": "https://arturnogueirasae.cebicloud.com.br",
-    "Mogi das Cruzes": "https://sistemas.semae.sp.gov.br"
+    "Mogi das Cruzes": "https://sistemas.semae.sp.gov.br",
+    "Itu": "https://cis-itu.cebicloud.com.br"
 }
 
 modulos = {
