@@ -1,0 +1,38 @@
+name: Atualizar Versões dos Sistemas
+
+# Quando esse robô vai rodar?
+on:
+  schedule:
+    # Roda todos os dias às 10:00 UTC (07:00 da manhã no horário de Brasília)
+    - cron: '0 10 * * *'
+  workflow_dispatch: # Permite que você aperte um botão para rodar manualmente
+
+jobs:
+  atualizar-csv:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write # Dá permissão para o robô salvar o arquivo
+
+    steps:
+      - name: Pegar os arquivos do projeto
+        uses: actions/checkout@v4
+
+      - name: Preparar o Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: Instalar bibliotecas necessárias
+        run: pip install requests urllib3 pandas
+
+      - name: Rodar a varredura pesada
+        run: python Versionamento.py
+
+      - name: Salvar o CSV atualizado de volta no GitHub
+        run: |
+          git config --global user.name 'Robô da Varredura'
+          git config --global user.email 'action@github.com'
+          git add relatorio_versoes_limpo.csv
+          # Tenta salvar. Se não houver mudanças, ele avisa e não dá erro.
+          git commit -m "Atualização diária automática do CSV" || echo "Nenhuma mudança identificada hoje"
+          git push
