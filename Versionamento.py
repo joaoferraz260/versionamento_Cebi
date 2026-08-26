@@ -70,7 +70,7 @@ def checar_versao(nome_cliente, url_cliente, nome_modulo, caminho_modulo):
     
     try:
         # Diminuí o timeout para 7s para ele desistir rápido de módulos que não existem
-        resposta = requests.get(url_completa, headers=headers, timeout=10, verify=False)
+        resposta = requests.get(url_completa, headers=headers, timeout=30, verify=False)
         resposta.raise_for_status() 
         dados_json = resposta.json()
         versao = dados_json.get("versaoApi")
