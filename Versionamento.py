@@ -4,14 +4,16 @@ import csv
 import concurrent.futures
 from email.utils import parsedate_to_datetime
 import json
+import os # <-- NOVA FERRAMENTA
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-with open("clientes.json", "r", encoding="utf-8") as arquivo_clientes:
-    clientes = json.load(arquivo_clientes)
+# --- LENDO OS SEGREDOS DO GITHUB ---
+# O os.environ pega o texto do cofre e o json.loads transforma de volta em dicionário
+clientes = json.loads(os.environ["CLIENTES_JSON"])
+modulos = json.loads(os.environ["MODULOS_JSON"])
 
-with open("modulos.json", "r", encoding="utf-8") as arquivo_modulos:
-    modulos = json.load(arquivo_modulos)
+# --- O RESTO DO CÓDIGO CONTINUA IGUAL ---
 
 endpoint_api = "/api/AppInfo" 
 # O arquivo que usaremos como "isca" para pegar a data do IIS
