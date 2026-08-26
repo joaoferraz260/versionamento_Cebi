@@ -26,7 +26,10 @@ jobs:
         run: pip install requests urllib3 pandas
 
       - name: Rodar a varredura pesada
-        run: python Versionamento.py
+        env:
+          CLIENTES_JSON: ${{ secrets.CLIENTES_JSON }}
+          MODULOS_JSON: ${{ secrets.MODULOS_JSON }}
+        run: python varredura.py
 
       - name: Salvar o CSV atualizado de volta no GitHub
         run: |
