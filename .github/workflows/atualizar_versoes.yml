@@ -29,7 +29,7 @@ jobs:
         env:
           CLIENTES_JSON: ${{ secrets.CLIENTES_JSON }}
           MODULOS_JSON: ${{ secrets.MODULOS_JSON }}
-        run: python varredura.py
+        run: python Versionamento.py
 
       - name: Salvar o CSV atualizado de volta no GitHub
         run: |
