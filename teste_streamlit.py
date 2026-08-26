@@ -69,6 +69,11 @@ try:
         df_estilizado = df_exibicao.style.applymap(pintar_data_antiga, subset=["Última Atualização"])
 
     # --- EXIBIÇÃO ---
+    # Adiciona a legenda charmosa acima da tabela
+    st.markdown(
+        "**Atualizado a:** "
+        "🟡 15+ dias &nbsp;|&nbsp; 🔴 30+ dias"
+    )
     # Agora passamos o dataframe ESTILIZADO para o Streamlit desenhar!
     st.dataframe(df_estilizado, use_container_width=True, hide_index=True)
 
