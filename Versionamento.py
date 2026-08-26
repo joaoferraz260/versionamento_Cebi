@@ -3,30 +3,15 @@ import urllib3
 import csv
 import concurrent.futures
 from email.utils import parsedate_to_datetime
+import json
 
 urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 
-clientes = {
-    "SAESA": "https://saocaetanosaesa.cebicloud.com.br",
-    "Poços": "https://pocosdecaldasdmae.cebicloud.com.br",
-    "SAECIL": "https://lemesaecil.cebicloud.com.br",
-    "Rio Claro": "https://rioclarodaae.cebicloud.com.br",
-    "Penapolis": "https://penapolisdaep.cebicloud.com.br",
-    "Pirai": "https://barradopiraipref.cebicloud.com.br",
-    "Cosmopolis": "https://cosmopolispref.cebicloud.com.br",
-    "Descalvado": "https://descalvadopref.cebicloud.com.br",
-    "Iracemápolis": "https://iracemapolispref.cebicloud.com.br",
-    "Salto": "https://saltosaae.cebicloud.com.br",
-    "São Carlos": "https://saocarlossaaegg.cebicloud.com.br",
-    "Guaratinguetá": "https://guaratinguetasaeg.cebicloud.com.br",
-    "Mogi Guaçu": "https://mogiguacusamae.cebicloud.com.br",
-    "Lençois Paulista": "https://lencoispaulistasaae.cebicloud.com.br",
-    "SAAE Mogi Mirim": "https://mogimirimsaae.cebicloud.com.br",
-    "Engenheiro Coelho": "https://engcoelho.cebicloud.com.br",
-    "SAEAN": "https://arturnogueirasae.cebicloud.com.br",
-    "Mogi das Cruzes": "https://sistemas.semae.sp.gov.br",
-    "Itu": "https://cis-itu.cebicloud.com.br"
-}
+with open("clientes.json", "r", encoding="utf-8") as arquivo_clientes:
+    clientes = json.load(arquivo_clientes)
+
+with open("modulos.json", "r", encoding="utf-8") as arquivo_modulos:
+    modulos = json.load(arquivo_modulos)
 
 modulos = {
     "Administração": "/administracao",
