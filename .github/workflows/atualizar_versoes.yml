@@ -35,5 +35,5 @@ jobs:
           git add relatorio_versoes_limpo.csv
           # Tenta salvar. Se não houver mudanças, ele avisa e não dá erro.
           git commit -m "Atualização diária automática do CSV" || echo "Nenhuma mudança identificada hoje"
-          git pull --rebase origin main
+          git pull --rebase origin main --strategy-option=theirs
           git push
