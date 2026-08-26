@@ -13,41 +13,6 @@ with open("clientes.json", "r", encoding="utf-8") as arquivo_clientes:
 with open("modulos.json", "r", encoding="utf-8") as arquivo_modulos:
     modulos = json.load(arquivo_modulos)
 
-modulos = {
-    "Administração": "/administracao",
-    "Analytics": "/analytics",
-    "Analytics Designer": "/analytics_designer",
-    "Usuários": "/usuarios",
-    "Balcão": "/balcao_ssb",
-    "Pessoas": "/pessoas",
-    "Leitura": "/leitura",
-    "Controle de Leitura": "/ssb_controle_leitura",
-    "Corte": "/corte",
-    "Dívida Ativa": "/divida_ativa_ssb",
-    "Hidrometria": "/ssb_hidrometria",
-    "Baixa": "/baixa",
-    "CRC": "/crc",
-    "Rois de apoio": "/rois_apoio",
-    "SSB Principal": "/ssb_principal",
-    "Gerenciamento de Serviços": "/gerenciamento_servicos",
-    "OmniChannel": "/Omnichannel",
-    "Funcionários": "/funcionarios",
-    "Gestão de Documentos": "/gestao_documentos",
-    "Agendamento de Atendimentos": "/agendamento_atendimentos",
-    "Controle Interno": "/controle_interno",
-    "EFD Reinf": "/efd_reinf",
-    "Materiais": "/materiais",
-    "Compras e Licitações": "/compras_legado",
-    "Frota": "/frota",
-    "Patrimônio": "/patrimonio",
-    "Portal de Licitações": "/portal_licitacoes",
-    "Concurso Público": "/concurso_publico",
-    "Fornecedores": "/fornecedores",
-    "Folha Diversos": "/folha_diversos",
-    "Autorização de Pagamento": "/autorizacao_pagamento",
-    "Treinamento e Desenvolvimento": "/treinamento_desenvolvimento"
-    }
-
 endpoint_api = "/api/AppInfo" 
 # O arquivo que usaremos como "isca" para pegar a data do IIS
 arquivo_estatico = "/index.html" 
